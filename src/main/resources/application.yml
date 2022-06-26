@@ -1,4 +1,6 @@
-spring.jms.servicebus.connection-string: <ServiceBusNamespaceConnectionString>
-spring.jms.servicebus.topic-client-id: <ServiceBusSubscriptionID>
-spring.jms.servicebus.idle-timeout: <IdleTimeout>
-spring.jms.servicebus.pricing-tier: <ServiceBusPricingTier> 
+spring.jms.servicebus.connection-string: <spring.jms.servicebus.connection-string>
+spring.jms.servicebus.topic-client-id: <spring.jms.servicebus.topic-client-id>
+spring.jms.servicebus.pricing-tier: <standard/premium/basic>
+
+server.port: 7070
+
